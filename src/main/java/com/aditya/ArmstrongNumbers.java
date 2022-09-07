@@ -21,8 +21,14 @@ public class ArmstrongNumbers {
         // call the method
         ArmstrongNumbers armstrongNumbers = new ArmstrongNumbers();
 
-
+        // Print the result
+        if (armstrongNumbers.isArmstrong(num)) {
+            System.out.println(num + " is an Armstrong Number.");
+        } else {
+            System.out.println(num + " is not an Armstrong Number.");
+        }
     }
+
     /**
      * This method checks if the given number is an Armstrong number.
      * An Armstrong number is a number that is the sum of its own digits raised to the power of the number of digits.
