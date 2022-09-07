@@ -18,6 +18,8 @@ public class ArmstrongNumbers {
         // Store the input in a variable
         int num = sc.nextInt();
 
+        // call the method
+        ArmstrongNumbers armstrongNumbers = new ArmstrongNumbers();
 
 
     }
