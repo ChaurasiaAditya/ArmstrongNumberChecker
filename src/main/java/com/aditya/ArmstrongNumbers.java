@@ -5,8 +5,20 @@
  */
 package com.aditya;
 
+import java.util.Scanner;
+
 public class ArmstrongNumbers {
     public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner sc = new Scanner(System.in);
+
+        // Take input from the user
+        System.out.print("Enter a number: ");
+
+        // Store the input in a variable
+        int num = sc.nextInt();
+
+
 
     }
     /**
