@@ -6,6 +6,9 @@
 package com.aditya;
 
 public class ArmstrongNumbers {
+    public static void main(String[] args) {
+
+    }
     /**
      * This method checks if the given number is an Armstrong number.
      * An Armstrong number is a number that is the sum of its own digits raised to the power of the number of digits.
